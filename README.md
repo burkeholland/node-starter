@@ -25,13 +25,13 @@ This is an opinionated environment that should be ready to use as a day-to-day d
 
 ### VS Code Extensions
 
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): An extension colors matching brackets appropraitely to enhance code readability.
-- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker): Included for Node.js developers who work with Docker, but also to enable users to edit `.devcontainer/Dockerfile` with proper editing.
-- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github): Integration with GitHub's Pull Requests and Issues features that significantly enhance the experience of working in a repo hosted on GitHub.
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): An extension that significantly enhances the experience using Git in a development environment.
-- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode): AI-assisted development for multiple langauges including JavaScript and TypeScript.
-- [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): collaborative, multi-user remote editing from directly within the editor.
-- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): An enhancement to the editor UI that gives more visual indicators in the explorer.
+- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2&WT.mc_id=m365-0000-buhollan): An extension colors matching brackets appropraitely to enhance code readability.
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&WT.mc_id=m365-0000-buhollan): Included for Node.js developers who work with Docker, but also to enable users to edit `.devcontainer/Dockerfile` with proper editing.
+- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github&WT.mc_id=m365-0000-buhollan): Integration with GitHub's Pull Requests and Issues features that significantly enhance the experience of working in a repo hosted on GitHub.
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&WT.mc_id=m365-0000-buhollan): An extension that significantly enhances the experience using Git in a development environment.
+- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode&WT.mc_id=m365-0000-buhollan): AI-assisted development for multiple langauges including JavaScript and TypeScript.
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare&WT.mc_id=m365-0000-buhollan): collaborative, multi-user remote editing from directly within the editor.
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons&WT.mc_id=m365-0000-buhollan): An enhancement to the editor UI that gives more visual indicators in the explorer.
 
 ### Operating System
 
@@ -43,9 +43,9 @@ This is an opinionated environment that should be ready to use as a day-to-day d
 
 #### Inital Creation
 
-For usage in VS Codespaces, you're going to want to head over to [online.visualstudio.com](https://online.visualstudio.com) and sign up for VS Codespaces (that process is outside the scope of these instructions). Once you've got an account and are signed in to [online.visualstudio.com](https://online.visualstudio.com), you're going to take the following steps:
+For usage in VS Codespaces, you're going to want to head over to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=m365-0000-buhollan) and sign up for VS Codespaces (that process is outside the scope of these instructions). Once you've got an account and are signed in to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=m365-0000-buhollan), you're going to take the following steps:
 
-- Ensure you're on the `/environments` page at [online.visualstudio.com/environments](https://online.visualstudio.comenvironments)
+- Ensure you're on the `/environments` page at [online.visualstudio.com/environments](https://online.visualstudio.comenvironments/?WT.mc_id=m365-0000-buhollan)
 - In the top right corner, there'll be a "Create environment" button. Click this button, which will open up a panel from the right side of the screen. Fill in the details of this panel:
   - **Environment Name:** This will be the visible name of your environment within Codespaces. The value here doesn't particularly matter - I'm going to use `tinycloud`.
   - **Git Repository:** This is going to be either the URL you'd `git clone` the repo from or the GitHub `<org OR user>/<repo>` shorthand. For this repo, the easier value would be `cutenode/codespaces-nodejs-starter`.
@@ -59,15 +59,15 @@ For usage in VS Codespaces, you're going to want to head over to [online.visuals
 
 #### Connecting to your Environment
 
-Once you've completed the Creation steps, your environment will be usable from Codespaces until you delete it. You can access it by going to [online.visualstudio.com](https://online.visualstudio.com) and selecting the vertical elipsis menu to connect to it from the browser or launch it in VS Code / VS Code Insiders.
+Once you've completed the Creation steps, your environment will be usable from Codespaces until you delete it. You can access it by going to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=m365-0000-buhollan) and selecting the vertical elipsis menu to connect to it from the browser or launch it in VS Code / VS Code Insiders.
 
 When inside of the environment you can change envrionments themselves from the command pallete with the `Codespaces: Connect`.
 
-> **Note:** See the [VS Online in the Browser](https://docs.microsoft.com/en-us/visualstudio/online/quickstarts/browser) quickstart for more information.
+> **Note:** See the [VS Online in the Browser](https://docs.microsoft.com/visualstudio/online/quickstarts/browser?WT.mc_id=m365-0000-buhollan) quickstart for more information.
 
-Additionally, if you've installedthe [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline) extension in VS Code locally, you'll be able to directly connect from VS Code itself.
+Additionally, if you've installedthe [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline&WT.mc_id=m365-0000-buhollan) extension in VS Code locally, you'll be able to directly connect from VS Code itself.
 
-> **Note:** See the [VS Online in VS Code](https://docs.microsoft.com/en-us/visualstudio/online/quickstarts/vscode) quickstart for more information.
+> **Note:** See the [VS Online in VS Code](https://docs.microsoft.com/visualstudio/online/quickstarts/vscode?WT.mc_id=m365-0000-buhollan) quickstart for more information.
 
 #### Working
 
